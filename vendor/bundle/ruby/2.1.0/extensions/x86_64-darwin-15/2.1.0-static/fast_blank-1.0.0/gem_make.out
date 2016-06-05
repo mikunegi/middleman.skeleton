@@ -1,0 +1,12 @@
+/Users/01014523/.rbenv/versions/2.1.0/bin/ruby extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling fast_blank.c
+linking shared-object fast_blank.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fast_blank.bundle ./.gem.20160605-42881-1kwyg7k
+installing default fast_blank libraries
